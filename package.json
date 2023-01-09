@@ -1,12 +1,14 @@
 {
   "name": "@senojs/lodash",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Automatic ES modules in `lodash`",
   "type": "module",
   "main": "./index.cjs",
   "module": "./index.js",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "import": "./index.js",
       "require": "./index.cjs"
     }
