@@ -11,8 +11,12 @@
       "require": "./index.cjs"
     }
   },
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -35,5 +39,17 @@
     "@types/lodash-es": "^4.17.6",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "~17.1.2",
+    "@commitlint/config-conventional": "~17.1.0",
+    "@typescript-eslint/eslint-plugin": "~5.36.2",
+    "@typescript-eslint/parser": "~5.36.2",
+    "eslint": "~8.23.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-plugin-react-hooks": "~4.6.0",
+    "husky": "~8.0.1",
+    "lint-staged": "~13.0.3",
+    "prettier": "~2.7.1"
   }
 }
