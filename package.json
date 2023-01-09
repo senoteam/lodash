@@ -28,7 +28,14 @@
     "senojs",
     "senoteam"
   ],
-  "author": "htmlin",
+  "author": {
+    "name": "htmlin"
+  },
+  "contributors": [
+    {
+      "name": "Y-qwq"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/senoteam/lodash/issues"
