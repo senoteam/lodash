@@ -1,6 +1,6 @@
 {
   "name": "@senojs/lodash",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1",
   "description": "Automatic ES modules in `lodash`",
   "type": "module",
   "main": "./index.cjs",
@@ -44,7 +44,6 @@
   },
   "homepage": "https://github.com/senoteam/lodash#readme",
   "dependencies": {
-    "@types/lodash": "^4.14.191",
     "@types/lodash-es": "^4.17.6",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21"
