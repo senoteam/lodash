@@ -1,6 +1,6 @@
 {
   "name": "@senojs/lodash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatic ES modules in `lodash`",
   "type": "module",
   "main": "./index.cjs",
@@ -17,7 +17,6 @@
     "node": ">=14"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install"
   },
   "repository": {
